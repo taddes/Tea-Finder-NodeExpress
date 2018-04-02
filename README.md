@@ -1,7 +1,7 @@
 # Finder-NodeExpress
 A finder application using Node.js Express to take a survey and match your feedback to a suitable pairing
 
-Directory Structure
+`Directory Structure
 |  Tea Finder
 | - app
 |   - data
@@ -14,4 +14,4 @@ Directory Structure
 |     - htmlRoutes.js
 | - node_modules
 | - package.json
-| - server.js
+| - server.js`
