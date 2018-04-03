@@ -20,6 +20,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.text());
 app.use(bodyParser.json({type: "application/vnd.api+json"}));
 
+app.use(express.static("public"));
+
 
 // Use of static files/route files in routing folders
 app.use(express.static("./app/public"));
