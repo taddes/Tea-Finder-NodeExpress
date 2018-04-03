@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tea Finder</title>
+
+    <!--Jquery CDN-->
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+    <!--Latest compiled and minified CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!--Latest compiled and minified JavaScript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+            <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <!--Linking css stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+</head>
+
+<body class="text-center">
+
+<div class="container">
+
+    <div class="col-lg-12">
+
+        <div class="text-center" id="title">
+            <h1>Find the best tea for you at this given moment!</h1>
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-12 questions">
+
+            <form class="surveyForm">
+
+              <div class="form-group">
+                  <label for="name" name="name" class="name">Name (required)</label>
+                  <input type="text" class="form-control" id="name">
+              </div>
+
+              <div class="form-group">
+                  <label for="role" name="picture" class="picture">Picture (required)</label>
+                  <input type="text" class="form-control" id="photo">
+              </div>
+
+              <div class="page-header">
+                  <h1>Tea Survey<small>Make your selections below, where 5 means you strongly agree and 1 means you strongly disagree</small></h1>
+              </div>
+
+              <fieldset class="question">
+                  <h3>Question 1: How much do you want a pick up, with more caffiene?</h3>
+                  <input type="radio" name="q1" value="1" class="numbers"> 1 <br>
+                  <input type="radio" name="q1" value="2" class="numbers"> 2 <br>
+                  <input type="radio" name="q1" value="3" class="numbers"> 3 <br>
+                  <input type="radio" name="q1" value="4" class="numbers"> 4 <br>
+                  <input type="radio" name="q1" value="5" class="numbers"> 5 <br>
+              </fieldset>
+
+              <fieldset class="question">
+                  <h3>Question 2: How much do you prefer sweet to savory flavors? </h3>
+                  <input type="radio" name="q2" value="1" class="numbers"> 1 <br>
+                  <input type="radio" name="q2" value="2" class="numbers"> 2 <br>
+                  <input type="radio" name="q2" value="3" class="numbers"> 3 <br>
+                  <input type="radio" name="q2" value="4" class="numbers"> 4 <br>
+                  <input type="radio" name="q2" value="5" class="numbers"> 5 <br>
+              </fieldset>
+
+              <fieldset class="question">
+                  <h3>Question 3: How much do you prefer savory to sweet flavors?</h3>
+                  <input type="radio" name="q3" value="1" class="numbers"> 1 <br>
+                  <input type="radio" name="q3" value="2" class="numbers"> 2 <br>
+                  <input type="radio" name="q3" value="3" class="numbers"> 3 <br>
+                  <input type="radio" name="q3" value="4" class="numbers"> 4 <br>
+                  <input type="radio" name="q3" value="5" class="numbers"> 5 <br>
+              </fieldset>
+
+              <fieldset class="question">
+                  <h3>Question 4: Do you like earthy, dark flavors? (oak, cedar, smoke, etc.)</h3>
+                  <input type="radio" name="q4" value="1" class="numbers"> 1 <br>
+                  <input type="radio" name="q4" value="2" class="numbers"> 2 <br>
+                  <input type="radio" name="q4" value="3" class="numbers"> 3 <br>
+                  <input type="radio" name="q4" value="4" class="numbers"> 4 <br>
+                  <input type="radio" name="q4" value="5" class="numbers"> 5 <br>
+              </fieldset>
+
+              <fieldset class="question">
+                  <h3>Question 5: Do you like the taste of fresh vegetables and fruits? (peach, corn, spinach, etc.)</h3>
+                  <input type="radio" name="q5" value="1" class="numbers"> 1 <br>
+                  <input type="radio" name="q5" value="2" class="numbers"> 2 <br>
+                  <input type="radio" name="q5" value="3" class="numbers"> 3 <br>
+                  <input type="radio" name="q5" value="4" class="numbers"> 4 <br>
+                  <input type="radio" name="q5" value="5" class="numbers"> 5 <br>
+              </fieldset>
+
+              <fieldset class="question">
+                  <h3>Question 6: How much do you like bold, full-bodied drinks?</h3>
+                  <input type="radio" name="q6" value="1" class="numbers"> 1 <br>
+                  <input type="radio" name="q6" value="2" class="numbers"> 2 <br>
+                  <input type="radio" name="q6" value="3" class="numbers"> 3 <br>
+                  <input type="radio" name="q6" value="4" class="numbers"> 4 <br>
+                  <input type="radio" name="q6" value="5" class="numbers"> 5 <br>
+              </fieldset>
+
+              <fieldset class="question">
+                  <h3>Question 7: How much do you like subtle, gentle drinks?</h3>
+                  <input type="radio" name="q7" value="1" class="numbers"> 1 <br>
+                  <input type="radio" name="q7" value="2" class="numbers"> 2 <br>
+                  <input type="radio" name="q7" value="3" class="numbers"> 3 <br>
+                  <input type="radio" name="q7" value="4" class="numbers"> 4 <br>
+                  <input type="radio" name="q7" value="5" class="numbers"> 5 <br>
+              </fieldset>
+
+              <br>
+
+              <div class="text-center">
+                  <button type="submit" class="btn btn-primary btn-lg submitbtn" id="add-btn">Submit</button>
+              </div>
+
+            </form>
+
+        </div>
+
+        <div class="modal img-responsive" id="chosenTea">
+            <div class="modal-content img-responsive" id="teaModal">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <span class="close">&times;</span>
+                <p>Your tea recommendation</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+
+</div> <!-- close container -->
+
+<div class="container">
+    <a class="tealink" href="api/friends">Tea Taste API</a> <a class="repolink" href="https://github.com/taddes/Finder-NodeExpress">Link
+    to the github repo!</a>
+</div>
+
+<script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>

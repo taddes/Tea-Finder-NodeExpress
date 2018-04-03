@@ -1,0 +1,24 @@
+{
+  "name": "finder-nodeexpress",
+  "version": "1.0.0",
+  "description": "nodeExpress finder program",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taddes/Finder-NodeExpress.git"
+  },
+  "author": "Taddes Korris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taddes/Finder-NodeExpress/issues"
+  },
+  "homepage": "https://github.com/taddes/Finder-NodeExpress#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
