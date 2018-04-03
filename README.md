@@ -8,6 +8,8 @@ Most people have misconceptions about a beverage they probably drink multiple ti
 This application will help you decide what kind of tea you might like most, based on your individual tastes.  With so many options and varieties, it can often be hard to pick what kind of tea to make or buy.  Along with each pairing will be a link to purchase the tea from a reputable retailer along with some brewing instructions, so that you can make the best possible cup of that tea!
 
 To run this program, you'll need to install `node.js`(https://nodejs.org/en/download/) and initialize the `express` and `body-parser` npm packages. This particular program uses elements of HTML, JavaScript, Node.JS and Node.JS Express
+
+Deployed on Heroku : https://git.heroku.com/whispering-stream-38760.git 
 ```
 Directory Structure
 |  Tea Finder
