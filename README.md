@@ -9,7 +9,7 @@ This application will help you decide what kind of tea you might like most, base
 
 To run this program, you'll need to install `node.js`(https://nodejs.org/en/download/) and initialize the `express` and `body-parser` npm packages. This particular program uses elements of HTML, JavaScript, Node.JS and Node.JS Express
 
-Deployed on Heroku : https://git.heroku.com/whispering-stream-38760.git 
+Deployed on Heroku : https://whispering-stream-38760.herokuapp.com/
 ```
 Directory Structure
 |  Tea Finder
