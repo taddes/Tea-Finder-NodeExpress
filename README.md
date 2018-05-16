@@ -1,5 +1,5 @@
 # Tea Finder-NodeExpress
-A finder application using Node.js Express to take a survey and match your feedback to a suitable pairing.
+An application using Node.js Express to take a survey and match your feedback to a suitable tea pairing.
 
 ![Tea Finder App](/teaFinder.png)
 
